@@ -1,0 +1,295 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Color &mdash; NeonSign Documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/styles.css?v=0c5f8898" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=01f34227"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="BLACK" href="reference/neonsign.Color.BLACK.html" />
+    <link rel="prev" title="__str__" href="reference/neonsign.StyledString.__str__.html" />
+
+  <meta name="robots" content="noindex">
+  <meta name="robots" content="nofollow">
+  <meta name="robots" content="noarchive">
+  <meta name="robots" content="nocache">
+  <meta name="robots" content="nosnippet">
+  <meta name="robots" content="noimageindex">
+
+  <meta name="AdsBot-Google" content="noindex">
+  <meta name="AdsBot-Google" content="nofollow">
+  <meta name="AdsBot-Google" content="noarchive">
+  <meta name="AdsBot-Google" content="nocache">
+  <meta name="AdsBot-Google" content="nosnippet">
+  <meta name="AdsBot-Google" content="noimageindex">
+
+  <meta name="AdsBot-Google-Mobile" content="noindex">
+  <meta name="AdsBot-Google-Mobile" content="nofollow">
+  <meta name="AdsBot-Google-Mobile" content="noarchive">
+  <meta name="AdsBot-Google-Mobile" content="nocache">
+  <meta name="AdsBot-Google-Mobile" content="nosnippet">
+  <meta name="AdsBot-Google-Mobile" content="noimageindex">
+
+   
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+  <a href="../index.html" class="sidebar_title">NeonSign</a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../articles/tutorial.html">Building Styled Text with NeonSign</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../articles/examples.html">Example Gallery</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Styling a string</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="s.html">s(*contents)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="StyledString.html">StyledString</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Color</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#neonsign.Color"><code class="docutils literal notranslate"><span class="pre">Color</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#topics">Topics</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#simple-colors">Simple colors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bright-simple-colors">Bright simple colors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bit-colors">8-bit colors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">24-bit colors</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#see-also">See Also</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+  <i data-toggle="wy-nav-top">≡</i>
+  <a href="../index.html">NeonSign</a>
+
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+
+  <li>
+    <a href="../index.html">NeonSign</a></li>
+  <li class="breadcrumb-item active">Color</li>
+
+
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <p class="page-type">class</p>
+<section id="color">
+<h1>Color<a class="headerlink" href="#color" title="Link to this heading"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="neonsign.Color">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Color</span></span><a class="headerlink" href="#neonsign.Color" title="Link to this definition"></a></dt>
+<dd><p>A class that represents a color.</p>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading"></a></h2>
+<p>Anywhere NeonSign expects you to specify a color, you should provide an
+instance of <code class="docutils literal notranslate"><span class="pre">Color</span></code>.</p>
+</section>
+<section id="obtaining-an-instance">
+<h2>Obtaining an instance<a class="headerlink" href="#obtaining-an-instance" title="Link to this heading"></a></h2>
+<p>Use the class methods and constants on this class to obtain an instance. Do
+not call the initializer of any concrete color class directly.</p>
+<p class="rubric">Examples</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Color.GREEN</span></code> obtains the color green.
+The exact color value depends on the terminal and its configuration.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Color.color8(1)</span></code> obtains the 8-bit color at index 1.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Color.rgb(255,</span> <span class="pre">10,</span> <span class="pre">20)</span></code> obtains the 24-bit color, (255, 10, 20).</p></li>
+</ul>
+</section>
+</dd></dl>
+
+<section id="topics">
+<h2>Topics<a class="headerlink" href="#topics" title="Link to this heading"></a></h2>
+<section id="simple-colors">
+<h3>Simple colors<a class="headerlink" href="#simple-colors" title="Link to this heading"></a></h3>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.BLACK.html#neonsign.Color.BLACK" title="neonsign.Color.BLACK"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BLACK</span></code></a></p></td>
+<td><p class="symbol-summary">The black color configured in the terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.RED.html#neonsign.Color.RED" title="neonsign.Color.RED"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RED</span></code></a></p></td>
+<td><p class="symbol-summary">The red color configured in the terminal.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.GREEN.html#neonsign.Color.GREEN" title="neonsign.Color.GREEN"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GREEN</span></code></a></p></td>
+<td><p class="symbol-summary">The green color configured in the terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.YELLOW.html#neonsign.Color.YELLOW" title="neonsign.Color.YELLOW"><code class="xref py py-obj docutils literal notranslate"><span class="pre">YELLOW</span></code></a></p></td>
+<td><p class="symbol-summary">The yellow color configured in the terminal.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.BLUE.html#neonsign.Color.BLUE" title="neonsign.Color.BLUE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BLUE</span></code></a></p></td>
+<td><p class="symbol-summary">The blue color configured in the terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.MAGENTA.html#neonsign.Color.MAGENTA" title="neonsign.Color.MAGENTA"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MAGENTA</span></code></a></p></td>
+<td><p class="symbol-summary">The magenta color configured in the terminal.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.CYAN.html#neonsign.Color.CYAN" title="neonsign.Color.CYAN"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CYAN</span></code></a></p></td>
+<td><p class="symbol-summary">The cyan color configured in the terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.WHITE.html#neonsign.Color.WHITE" title="neonsign.Color.WHITE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">WHITE</span></code></a></p></td>
+<td><p class="symbol-summary">The white color configured in the terminal.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="bright-simple-colors">
+<h3>Bright simple colors<a class="headerlink" href="#bright-simple-colors" title="Link to this heading"></a></h3>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.BRIGHT_BLACK.html#neonsign.Color.BRIGHT_BLACK" title="neonsign.Color.BRIGHT_BLACK"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BRIGHT_BLACK</span></code></a></p></td>
+<td><p class="symbol-summary">The bright version of the black color configured in the terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.BRIGHT_RED.html#neonsign.Color.BRIGHT_RED" title="neonsign.Color.BRIGHT_RED"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BRIGHT_RED</span></code></a></p></td>
+<td><p class="symbol-summary">The bright version of the red color configured in the terminal.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.BRIGHT_GREEN.html#neonsign.Color.BRIGHT_GREEN" title="neonsign.Color.BRIGHT_GREEN"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BRIGHT_GREEN</span></code></a></p></td>
+<td><p class="symbol-summary">The bright version of the green color configured in the terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.BRIGHT_YELLOW.html#neonsign.Color.BRIGHT_YELLOW" title="neonsign.Color.BRIGHT_YELLOW"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BRIGHT_YELLOW</span></code></a></p></td>
+<td><p class="symbol-summary">The bright version of the yellow color configured in the terminal.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.BRIGHT_BLUE.html#neonsign.Color.BRIGHT_BLUE" title="neonsign.Color.BRIGHT_BLUE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BRIGHT_BLUE</span></code></a></p></td>
+<td><p class="symbol-summary">The bright version of the blue color configured in the terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.BRIGHT_MAGENTA.html#neonsign.Color.BRIGHT_MAGENTA" title="neonsign.Color.BRIGHT_MAGENTA"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BRIGHT_MAGENTA</span></code></a></p></td>
+<td><p class="symbol-summary">The bright version of the magenta color configured in the terminal.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="symbol"><span class="symbol-category">attribute</span><a class="reference internal" href="reference/neonsign.Color.BRIGHT_CYAN.html#neonsign.Color.BRIGHT_CYAN" title="neonsign.Color.BRIGHT_CYAN"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BRIGHT_CYAN</span></code></a></p></td>
+<td><p class="symbol-summary">The bright version of the cyan color configured in the terminal.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="bit-colors">
+<h3>8-bit colors<a class="headerlink" href="#bit-colors" title="Link to this heading"></a></h3>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p class="symbol"><span class="symbol-category">method</span><a class="reference internal" href="reference/neonsign.Color.color8.html#neonsign.Color.color8" title="neonsign.Color.color8"><code class="xref py py-obj docutils literal notranslate"><span class="pre">color8</span></code></a>(index)</p></td>
+<td><p class="symbol-summary">Obtains the 8-bit color at the index specified.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id1">
+<h3>24-bit colors<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p class="symbol"><span class="symbol-category">method</span><a class="reference internal" href="reference/neonsign.Color.rgb.html#neonsign.Color.rgb" title="neonsign.Color.rgb"><code class="xref py py-obj docutils literal notranslate"><span class="pre">rgb</span></code></a>(red, green, blue)</p></td>
+<td><p class="symbol-summary">Obtains the 24-bit color with the specified red, green and blue components.</p></td>
+</tr>
+<tr class="row-even"><td><p class="symbol"><span class="symbol-category">method</span><a class="reference internal" href="reference/neonsign.Color.hex.html#neonsign.Color.hex" title="neonsign.Color.hex"><code class="xref py py-obj docutils literal notranslate"><span class="pre">hex</span></code></a>(hex_string)</p></td>
+<td><p class="symbol-summary">Obtains the 24-bit color with the specified hexadecimal value.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="symbol"><span class="symbol-category">method</span><a class="reference internal" href="reference/neonsign.Color.hsl.html#neonsign.Color.hsl" title="neonsign.Color.hsl"><code class="xref py py-obj docutils literal notranslate"><span class="pre">hsl</span></code></a>(hue, saturation, lightness)</p></td>
+<td><p class="symbol-summary">Obtains the 24-bit color with the specified hue, saturation and lightness using the HSL color model.</p></td>
+</tr>
+<tr class="row-even"><td><p class="symbol"><span class="symbol-category">method</span><a class="reference internal" href="reference/neonsign.Color.hsv.html#neonsign.Color.hsv" title="neonsign.Color.hsv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">hsv</span></code></a>(hue, saturation, value)</p></td>
+<td><p class="symbol-summary">Obtains the 24-bit color with the specified hue, saturation and value using the HSV color model.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="see-also">
+<h2>See Also<a class="headerlink" href="#see-also" title="Link to this heading"></a></h2>
+<div class="docsummary-entry-list docutils container">
+<div class="docsummary-entry-container docutils container">
+<div class="docsummary-header docutils container">
+<div class="docsummary-doc-category docutils container">
+📄</div>
+<p><a class="reference internal" href="../articles/tutorial.html"><span class="doc">Building Styled Text with NeonSign</span></a></p>
+</div>
+<p class="docsummary-summary">Learn to use NeonSign’s declarative syntax to build styled text.</p>
+</div>
+<div class="docsummary-entry-container docutils container">
+<div class="docsummary-header docutils container">
+<div class="docsummary-doc-category docutils container">
+📄</div>
+<p><a class="reference internal" href="../articles/examples.html"><span class="doc">Example Gallery</span></a></p>
+</div>
+<p class="docsummary-summary">Browse the examples that demonstrate the capabilities of NeonSign’s APIs.</p>
+</div>
+</div>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p class="symbol"><span class="symbol-category">method</span><a class="reference internal" href="reference/neonsign.StyledString.foreground.html#neonsign.StyledString.foreground" title="neonsign.StyledString.foreground"><code class="xref py py-obj docutils literal notranslate"><span class="pre">foreground</span></code></a>(color)</p></td>
+<td><p class="symbol-summary">Applies a foreground color to this string.</p></td>
+</tr>
+<tr class="row-even"><td><p class="symbol"><span class="symbol-category">method</span><a class="reference internal" href="reference/neonsign.StyledString.background.html#neonsign.StyledString.background" title="neonsign.StyledString.background"><code class="xref py py-obj docutils literal notranslate"><span class="pre">background</span></code></a>(color)</p></td>
+<td><p class="symbol-summary">Applies a background color to this string.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="reference/neonsign.StyledString.__str__.html" class="btn btn-neutral float-left" title="__str__" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="reference/neonsign.Color.BLACK.html" class="btn btn-neutral float-right" title="BLACK" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024-2025, Yuhuan Jiang.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
