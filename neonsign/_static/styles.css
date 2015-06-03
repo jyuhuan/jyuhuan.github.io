@@ -1,0 +1,152 @@
+body,
+h1,
+h2,
+h3,
+.caption-text,
+.btn {
+    font-family: 'system-ui';
+}
+
+code, pre {
+    font-size: 95% !important;
+    font-weight: 400 !important;
+}
+
+.btn {
+    display: none;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2, .caption-text {
+    margin-top: 36px;
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+.page-type {
+    color: gray;
+    font-size: 1.1em;
+    margin-top: 18px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+dl.py.function > dd,
+dl.py.method > dd,
+dl.py.property > dd,
+dl.py.class > dd,
+dl.py.data > dd,
+dl.py.attribute > dd {
+    margin-left: 0px !important;
+    margin-top: 20px !important;
+}
+
+.rst-content code.literal,
+.rst-content tt.literal {
+    color: unset;
+}
+
+a .rst-content code,
+a .rst-content tt {
+    color: #9b59b6;
+    padding: unset;
+}
+
+.rst-content code,
+.rst-content tt,
+code {
+    border: unset;
+    background: unset;
+    padding: unset;
+}
+
+table.autosummary {
+    border: unset !important;
+}
+
+table.autosummary * tr {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+table.autosummary * td {
+    padding: 0 !important;
+    padding-bottom: 6px !important;
+    border-bottom: unset !important;
+    border-left: unset !important;
+    background: unset !important;
+    word-wrap: break-word !important;
+    white-space: unset !important;
+}
+
+.rst-content table.docutils td p {
+    line-height: 24px !important;
+}
+
+html.writer-html5 .rst-content table.docutils td > p,
+html.writer-html5 .rst-content table.docutils th > p {
+    font-size: 1rem;
+}
+
+.wy-breadcrumbs {
+    font-size: 0.9rem;
+}
+
+.headerlink {
+    display: none !important;
+}
+
+.sidebar_title {
+    width: 100%;
+    padding: 10px 0px !important;
+}
+
+.wy-nav-top i {
+    font-style: normal;
+    font-size: 30px;
+    float: left;
+    cursor: pointer;
+    padding: 0;
+}
+
+.toctree-expand {
+    display: none !important;
+}
+
+html.writer-html5 .rst-content dl.field-list {
+    display: flex;
+    flex-direction: column;
+}
+
+html.writer-html5 .rst-content dl.field-list > dt {
+    padding: 0;
+    margin-top: 36px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 150%;
+}
+
+html.writer-html5 .rst-content dl.field-list > dd {
+    padding: 0;
+    margin: 0;
+}
+
+html.writer-html5 .rst-content dl.field-list > dt > .colon {
+    display: none;
+}
+
+html.writer-html5 .rst-content dl.field-list > dd > ul > li {
+    margin-bottom: 12px;
+}
+
+.rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
+    background-color: unset;
+}
