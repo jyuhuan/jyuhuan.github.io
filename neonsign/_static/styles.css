@@ -1,0 +1,300 @@
+body,
+h1,
+h2,
+h3,
+.caption-text,
+.btn {
+    font-family: sans-serif;
+}
+
+dt.sig.sig-object.py {
+    font-family: monospace;
+    color: #000000 !important;
+}
+
+dt.sig.sig-object.py > em.sig-param {
+    font-style: normal;
+}
+
+dt.sig.sig-object.py > em.property {
+    font-style: normal;
+    color: #999999;
+}
+
+span.sig-return-icon {
+    color: #999999 !important;
+}
+
+.wy-nav-content-wrap {
+    background: #FFFFFF;
+}
+
+.wy-nav-content {
+    background: #FFFFFF;
+}
+
+.wy-body-for-nav {
+    background: #FFFFFF;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+.neonsign > h1 {
+    color: transparent;
+    background: linear-gradient(
+        to right,
+        #404040,
+        #404040,
+        slateblue,
+        gold,
+        pink,
+        orange,
+        red,
+        #404040,
+        #404040
+    );
+    background-clip: text;
+    background-size: 1000px 100%;
+    animation: neonsign-animation-key-frames 5s ease-in-out 1;
+}
+
+@keyframes neonsign-animation-key-frames {
+
+    0% {
+        background-position: 0px 0%;
+    }
+
+    50% {
+        background-position: 1000px 0%;
+    }
+
+    100% {
+        background-position: 0px 0%;
+    }
+
+}
+
+code, pre {
+    font-size: 95% !important;
+    font-weight: 400 !important;
+}
+
+.btn {
+    display: none;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2, .caption-text {
+    margin-top: 36px;
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.page-type {
+    color: gray;
+    font-size: 1.1em;
+    margin-top: 18px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+dl.py.function > dd,
+dl.py.method > dd,
+dl.py.property > dd,
+dl.py.class > dd,
+dl.py.data > dd,
+dl.py.attribute > dd {
+    margin-left: 0px !important;
+    margin-top: 20px !important;
+}
+
+.rst-content code.literal,
+.rst-content tt.literal {
+    color: unset;
+}
+
+a .rst-content code,
+a .rst-content tt {
+    color: #9b59b6;
+    padding: unset;
+}
+
+.rst-content code,
+.rst-content tt,
+code {
+    border: unset;
+    background: unset;
+    padding: unset;
+}
+
+table.autosummary {
+    border: unset !important;
+}
+
+table.autosummary * tr {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+table.autosummary * td {
+    padding: 0 !important;
+    padding-bottom: 6px !important;
+    border-bottom: unset !important;
+    border-left: unset !important;
+    background: unset !important;
+    word-wrap: break-word !important;
+    white-space: unset !important;
+}
+
+.rst-content table.docutils td p {
+    line-height: 24px !important;
+}
+
+html.writer-html5 .rst-content table.docutils td > p,
+html.writer-html5 .rst-content table.docutils th > p {
+    font-size: 1rem;
+}
+
+.wy-breadcrumbs {
+    font-size: 0.9rem;
+}
+
+.headerlink {
+    display: none !important;
+}
+
+.sidebar_title {
+    width: 100%;
+    padding: 10px 0px !important;
+}
+
+.wy-nav-top i {
+    font-style: normal;
+    font-size: 30px;
+    float: left;
+    cursor: pointer;
+    padding: 0;
+}
+
+.wy-menu.wy-menu-vertical * a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.toctree-expand {
+    display: none !important;
+}
+
+html.writer-html5 .rst-content dl.field-list {
+    display: flex;
+    flex-direction: column;
+}
+
+html.writer-html5 .rst-content dl.field-list > dt {
+    padding: 0;
+    margin-top: 36px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 150%;
+}
+
+html.writer-html5 .rst-content dl.field-list > dd {
+    padding: 0;
+    margin: 0;
+}
+
+html.writer-html5 .rst-content dl.field-list > dt > .colon {
+    display: none;
+}
+
+html.writer-html5 .rst-content dl.field-list > dd > ul > li {
+    margin-bottom: 12px;
+}
+
+.rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
+    background-color: unset;
+}
+
+.rst-content .admonition-title:before {
+    content: none;
+}
+
+.autosummary * .symbol-category {
+    color: #999999;
+    margin-right: 5px;
+}
+
+/* For docsummary directive: */
+.docsummary-entry-container {
+    margin: 0 0 24px 0;
+}
+
+.docsummary-entry-container > .docsummary-header {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 6px 0;
+}
+
+.docsummary-entry-container > .docsummary-header > p {
+    margin: 0;
+}
+
+.docsummary-entry-container > .docsummary-header > .docsummary-doc-category {
+    color: #999999;
+    margin-right: 8px;
+    line-height: 24px;
+}
+
+.docsummary-entry-container > .docsummary-summary {
+    padding: 0 0 6px 0;
+}
+
+
+section#topics > section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+@media (max-width: 500px) {
+    section#topics > section {
+        flex-direction: column;
+    }
+}
+
+section#topics > h2 {
+    margin-bottom: 36px;
+}
+
+section#topics > section > h3 {
+    width: 220px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+section#topics > section > div.wy-table-responsive {
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: unset;
+}
+
+figcaption * .caption-text {
+    font-style: normal !important;
+    font-size: 0.9rem;
+    color: #999999;
+}
+
+figcaption {
+    margin-top: 12px;
+}
